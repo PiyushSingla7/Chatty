@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://chatty7.vercel.app/", "http://localhost:5001"],
+    origin: ["https://chatty7.vercel.app", "http://localhost:5173"],
     credentials: true,
   })
 );
